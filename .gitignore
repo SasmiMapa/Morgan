@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# ========================
+# Frontend (Next.js - client)
+# ========================
+client/node_modules/
+client/.pnp
+client/.yarn/*
+!client/.yarn/patches
+!client/.yarn/plugins
+!client/.yarn/releases
+!client/.yarn/versions
+
+# testing
+client/coverage/
+
+# Next.js build outputs
+client/.next/
+client/out/
+
+# production build
+client/build/
+
+# environment files
+client/.env
+client/.env.local
+client/.env.*.local
+
+# Vercel
+client/.vercel/
+
+# TypeScript
+client/*.tsbuildinfo
+client/next-env.d.ts
+
+# ========================
+# Backend (Python - server)
+# ========================
+server/venv/
+server/__pycache__/
+server/*.pyc
+server/.env
+server/.pytest_cache/
+server/.mypy_cache/
+
+# ========================
+# General
+# ========================
+.DS_Store
+*.pem
+.env
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

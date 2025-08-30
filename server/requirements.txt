@@ -1,0 +1,15 @@
+flask
+flask-cors
+fastapi
+uvicorn
+pydantic
+joblib
+tensorflow
+Werkzeug
+
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn
+python-multipart
